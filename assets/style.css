@@ -1,0 +1,228 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn-yellow{
+    background-color: #f9bc60;
+    color: #001e1d;
+    outline: 1px solid #001e1d;
+    border-radius: 8px;
+}
+
+.btn-yellow:hover{
+    background-color: #f6c987;
+    color: #001e1d;
+    box-shadow: 2px 2px #8d8d8d;
+}
+
+.navbar{
+    border-bottom: 3px solid #2b2c34;
+}
+
+.nav-bg{
+    background-color: #004643;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #abd1c6;
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-link.active{
+    color: #f9bc60;
+}
+
+.navbar-nav .nav-link.active:hover{
+    color: #f9bc60;
+    text-decoration: none;
+}
+
+
+.light-text{
+    color: #fffffe;
+}
+
+.dark-text{
+    color: #001e1d;
+}
+
+.header{
+    position: relative;
+    height: 36rem;
+    width: auto;
+}
+
+.header-image{
+    display: block;
+    height: 36rem;
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fffffe;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.header-text h1{
+    font-size: 4rem;
+    border-bottom: 3px solid #abd1c6;
+}
+
+.header-text h5{
+    font-size: 1.3rem;
+}
+
+.section-home{
+    background-color: #abd1c6;
+}
+
+.color-container{
+    padding: 0;
+    border-radius: 20px;
+    background-color: #004643;
+    transition: box-shadow 0.3s ease;
+}
+
+.color-container:hover{
+    box-shadow: 2px 2px #414141;
+}
+
+.img-list{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.fa-location-dot{
+    padding-right: 17px;
+    font-size: 1em;
+}
+
+.fa-solid{
+    color: #e8e4e6;
+}
+
+.fa-cart-shopping{
+    color: #004643;
+    padding-left: 7px;
+    padding-right: 10px;
+}
+
+.centered{
+    display: flex;
+    align-items: center;
+}
+
+.centered i.fa-location-dot{
+    margin-right: 5px;
+}
+
+.card-paragraph{
+    color: #e8e4e6;
+}
+
+.price{
+    color: #f9bc60;
+}
+
+.border-yellow{
+    border-top: 2px solid #f9bc60;
+}
+
+.bg-footer{
+    background-color: #004643;
+}
+
+.headline-footer{
+    color: #fffffe;
+}
+
+.paragraph-footer{
+    color : #abd1c6;
+}
+
+.properti{
+    background-color: #abd1c6;
+    padding-bottom: 100px;
+}
+
+.header-properti{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.deskripsi-about{
+    padding: 70px;
+}
+
+.paragraph{
+    color: #0f3433;
+}
+
+.img-rumah{
+    height: 100%;
+    width: 100%;
+}
+
+.headline-rumah{
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+
+.container-rumah{
+    padding-left: 50px;
+    background-color: #004643;
+}
+
+.fa-square-whatsapp{
+    color: #18e548;
+}
+
+.whatsapp-icon {
+    font-size: 5rem;
+    color: #25D366;
+}
+
+.padding-atas{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.montserrat-regular{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
